@@ -1,1 +1,9 @@
-Sleep. Execute. Notify. Repeat.
+SENR
+====
+
+SENR is for `Sleep. Execute. Notify. Repeat.`.  The program repeats executing
+commands and notifying the results of the executions to user as configured with
+sleep between iterations.  It is similar with `crond` but specialized for
+repetitive execution and notification.  In actual, the first goal of the
+program was system monitoring.  One user may use the program to `ping` its
+server systems and send mail to him if the `ping` was not successful.
